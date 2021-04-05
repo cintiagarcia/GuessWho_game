@@ -1,0 +1,34 @@
+body{
+    background-color: #ee585a;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+#guessWho-board {
+    background: white;
+    width: 700px;
+    height: 440px;
+    border-radius: 20px;
+    margin: 20px auto;
+    box-shadow: inset 0px 0px 20px -6px rgba(97, 89, 97, 1);
+}
+
+#score {
+    background-color: white;
+    border-radius: 8px;
+    font-size: 30px;
+    font-family: 'Press Start 2P';
+    width: 200px;
+    height: 260px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+#score p, h2 {
+    color: #ee585a;
+    padding-left: 20px;
+}

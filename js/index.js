@@ -28,7 +28,7 @@ window.addEventListener("load", (event) => {
   guessWho.cards.forEach((pic) => {
     console.log(`image loaded: ${pic.img}`);
     html += `<div class="card" data-card-name="${pic.name}">`;
-    html += `<div class="front" style="background: url(img/${pic.img}) no-repeat; background-size: cover"></div>`;
+    html += `<div class="front" style="background: url(img/${pic.img}) no-repeat; background-size: contain"></div>`;
     html += `</div>`;
   });
 

@@ -1,5 +1,5 @@
 body{
-    background-color: #ee585a;
+    background-color: white;
 }
 
 .container {
@@ -20,31 +20,37 @@ body{
 }
 
 #score {
-    background-color: white;
-    border-radius: 8px;
+    background-color: rgb(75, 175, 233);
+    border-radius: 16px;
     font-size: 30px;
     font-family: 'Press Start 2P';
+    justify-content: center;
     width: 200px;
     height: 260px;
     padding: 20px;
     margin: 30px;
+    border: 4px solid rgb(75, 175, 233);
 }
+
 #score p, h2 {
-    color: #ee585a;
-    padding-left: 20px;
+    color: white;
+    
 }
 .card {
     display: inline-block;
     margin-left: 16px;
     margin-right: 16px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    align-items: center;
+    
     
 }
 
 .front {
     width: 128px;
     height: 128px;
+    border-radius: 16px;
 }
 
 .select-css{

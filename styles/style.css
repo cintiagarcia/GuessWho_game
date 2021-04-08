@@ -3,6 +3,7 @@
 
     background: url('../img/images.png') no-repeat center fixed;
     background-size: cover;
+    display: flex;
     
     
     

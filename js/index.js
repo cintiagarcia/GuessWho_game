@@ -121,6 +121,8 @@ function askButtonPressed() {
     var featuresSelected = guessWho.questions[comboBoxValue].features;
     guessWho.score -= 500;
     console.log(guessWho.score);
+    // delete the element with this index
+    
     guessWho.questions.splice(comboBoxValue, 1);
     document.querySelector(".combo-box").innerHTML = guessWho.generateQuestions();
     document.querySelector("#points").innerHTML = guessWho.score;
@@ -130,6 +132,7 @@ function askButtonPressed() {
     );
 
     // filter cards with the following condition: if the feature property is or not inside the card
+
     guessWho.cards = guessWho.cards.filter(function (card) {
         if (selectedCardContainsFeature) {
             return card.features.includes(featuresSelected);

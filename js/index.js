@@ -166,7 +166,7 @@ function clickEvent() {
         console.log(`You win`);
       } else {
         console.log(`You are wrong`);
-        alert("YOU ARE WRONG!!LET TRY AGAIN!!");
+        alert("You are wrong!! Let try again!!");
         if (guessWho.score >= 400) {
           guessWho.score -= 400;
         } else {

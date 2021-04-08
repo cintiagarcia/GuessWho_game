@@ -1,6 +1,6 @@
 class GuessWho {
   constructor(cards) {
-    this.score = 5000;
+    this.score = 3500;
     this.cards = cards;
     this.questions = [
       { message: "Does your person wear a mask?", features: "mask" },

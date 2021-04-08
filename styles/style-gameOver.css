@@ -1,15 +1,15 @@
 .background-img {
     margin: 0;
 
-    background: url('../img/images.png') no-repeat center fixed;
-    background-size: cover;
+    background: url('../img/game_over.png') no-repeat center fixed;
+    background-size: auto;
     
     
     
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.logo-holder {
+.new-Game {
     width: 140px;
     height: 60px;
     background-color: white;

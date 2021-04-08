@@ -1,12 +1,18 @@
-.background-img {
+/* .background-img {
     margin: 0;
 
-    background: url('../img/game_over.png') no-repeat center fixed;
-    background-size: auto;
-    
-    
-    
+    im: url('../img/game_over.png') no-repeat center fixed;
+    background-size: contain;
+    display: flex;
     font-family: 'Helvetica Neue', Arial, sans-serif;
+} */
+
+.image-gameOver img{
+   display: flex;
+   margin: auto;
+   width: 320px;
+   padding-top: 100px;
+   
 }
 
 .new-Game {

@@ -52,12 +52,12 @@ const cards = [
   {
     name: "luigi",
     img: "luigi.png",
-    features: ["mustache"],
+    features: ["mustache", "green"],
   },
   {
     name: "mario",
     img: "mario.png",
-    features: ["mustache"],
+    features: ["mustache", "red"],
   },
   {
     name: "magneto",
@@ -166,6 +166,7 @@ function clickEvent() {
         console.log(`You win`);
       } else {
         console.log(`You are wrong`);
+        removeCard(card.getAttribute("card-name"));
         alert("You are wrong!! Let try again!!");
         if (guessWho.score >= 400) {
           guessWho.score -= 400;
@@ -190,4 +191,11 @@ function createHtmlDiv() {
 
   // Add all the divs to the HTML
   document.querySelector("#guessWho-board").innerHTML = html;
+}
+
+function removeCard(name) {
+  guessWho.cards = guessWho.cards.filter(function (card) {
+    return card.name != name;
+  });
+  createHtmlDiv();
 }
